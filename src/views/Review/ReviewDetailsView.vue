@@ -34,7 +34,7 @@ export default {
     ReviewComponent
   },
   data(){return {
-    review: {title: "",description: "",img: "http://localhost:4000/media/images/loading.gif",user: "",id:""},
+    review: {title: "",description: "",img: "https://python-crud.onrender.com/media/images/loading.gif",user: "",id:""},
     error: false,
     id: localStorage.getItem("id"),
     message: "",

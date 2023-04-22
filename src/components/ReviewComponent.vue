@@ -1,6 +1,6 @@
 <template>
   <div @click="reDirect" id="container-re" :title="title">
-    <img :src="'http://localhost:4000/' + img" alt="review">
+    <img :src="'https://python-crud.onrender.com' + img" alt="review">
     <div id="container-re-2">
      <h2>{{title}}</h2>
      <p>{{filter()}}</p>

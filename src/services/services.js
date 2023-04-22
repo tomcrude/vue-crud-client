@@ -186,7 +186,7 @@ export async function getSingleReview(id){
   ).
   then(res => {if(!error){
 
-    return show([res[0],"http://localhost:4000/" + res[0].img])
+    return show([res[0],"https://python-crud.onrender.com" + res[0].img])
   }})
   return result
 }
