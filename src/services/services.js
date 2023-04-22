@@ -1,7 +1,7 @@
 import {setTokens,deleTokens} from "../utils/utils.js"
 let result
 let error = false
-const url = "http://localhost:4000"
+const url = "https://python-crud.onrender.com"
 
 function show(data){
     result = data
