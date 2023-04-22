@@ -15,6 +15,7 @@
                 <button title="Send" type="submit" class="button-authentication">{{button}}</button>
 
             </form>
+            <div v-show="message == ''" id="spinner"></div>
             <router-link v-bind:to="title === 'Register' ? '/login' : '/register' ">{{linkText}}</router-link>
         </div>
     </div>
@@ -50,6 +51,7 @@ export default {
   methods: {
     async Send(e){
       e.preventDefault();
+      this.message = ''
 
       this.username = this.$refs.username.value
       this.password = this.$refs.password.value
