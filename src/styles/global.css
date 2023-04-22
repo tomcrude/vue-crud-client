@@ -1,0 +1,62 @@
+#app {
+    letter-spacing: 1px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    font-family:sans-serif;
+  }
+  
+  
+  :root{
+    --color-button: linear-gradient(90deg, rgba(8,138,51,1) 0%, rgba(16,180,40,1) 24%, rgba(16,180,62,1) 62%, rgba(16,180,101,1) 98%);
+    overflow-x: hidden;
+  }
+  
+  body{
+    height: 100%;
+    background: var(--color-button)
+  } 
+  
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .button-authentication{
+    border-radius: 25px;
+    border-color: rgba(249, 249, 249, 0);
+    background: var(--color-button);
+    padding: 7px;
+    color: rgb(255, 255, 255);
+  }
+  
+  .button-authentication:hover{
+    cursor: pointer;
+    filter: brightness(0.97);
+    box-shadow: 0 0 10px #c5c5c5;
+  }
+
+  .click:hover{
+    cursor:pointer
+  }
+
+  .white{
+    color: rgb(255,255,255);
+  }
+  
+  @keyframes ani {
+    0%{
+       filter: opacity(0)
+    }
+  
+    50%{
+       filter: opacity(50);
+    }
+  
+    100%{
+       filter: opacity(100)
+    }
+  }
+  
